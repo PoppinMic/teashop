@@ -1,0 +1,26 @@
+.hero {
+  background: lightgrey;
+  display: block;
+  height: 100vh;
+  padding-left: 60%;
+  padding-top: 30vh;
+  text-align: left;
+
+  .hero-title {
+    opacity: 0.6;
+    font-style: italic;
+  }
+
+  header {
+    width: 30%;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 2rem;
+    opacity: 0.8;
+    border: none;
+  }
+}
