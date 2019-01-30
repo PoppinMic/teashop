@@ -1,5 +1,6 @@
 .hero {
-  background: lightgrey;
+  background: lightgrey no-repeat fixed center;
+  background-size: cover;
   display: block;
   height: 100vh;
   padding-top: 30vh;

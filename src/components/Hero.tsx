@@ -1,8 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Hero.scss';
 
-const Hero = () => 
-  <div className="hero">
+interface HeroProps { 
+  bgColor: string;  
+  bgImage?: string;  
+}
+
+export default (prop: HeroProps) => 
+  <div className="hero" style={ { backgroundImage: prop.bgImage } }>
     <div className="hero-container">  
       <p className="hero-title">New Arrival</p>
       <header className="hero-header">
@@ -17,5 +22,3 @@ const Hero = () =>
     </div>
   </div>
 ;
-
-export default Hero;
