@@ -2,8 +2,9 @@
   background: lightgrey no-repeat center;
   background-size: cover;
   display: block;
-  height: 100vh;
-  padding-top: 30vh;
+  max-height: 100vh;
+  height: 80vw;
+  padding-top: 30vw;
   text-align: left;
 
   .hero-container {
