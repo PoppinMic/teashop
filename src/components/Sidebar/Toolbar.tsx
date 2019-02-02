@@ -1,10 +1,17 @@
-import React from 'react';
+import React from "react";
+import { FaUser, FaSearch, FaShoppingCart } from "react-icons/fa";
 
 const Toolbar: React.SFC<any> = () => (
   <div className="toolbar">
-    <span>Account</span>
-    <span>Search</span>
-    <span>Cart</span>
+    <span>
+      <FaUser />
+    </span>
+    <span>
+      <FaSearch />
+    </span>
+    <span>
+      <FaShoppingCart />
+    </span>
   </div>
 );
 
