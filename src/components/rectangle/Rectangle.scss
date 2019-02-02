@@ -1,6 +1,10 @@
+.rectangle-grid {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
 .rectangle {
   background: lightgrey;
-  display: inline-block;
       
   p {
     margin: 0;
@@ -26,8 +30,6 @@
 }
 
 .rectangle-small {
-  width: 25vw;
-  height: 20vw;
 }
 
 .rectangle-medium {
